@@ -145,10 +145,7 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/new_ele
   					
   					<div class="add-to-cart"><a onclick="javascript:window.location='<?php echo $product['sku']; ?>';" class="button"><?php echo $button_cart; ?></a></div>
   					
-  					<ul>
-  						<li class="comp"> <a onclick="compare.add('<?php echo $product['product_id']; ?>');"><?php if($theme_options->get( 'add_to_compare_text', $config->get( 'config_language_id' ) ) != '') { echo $theme_options->get( 'add_to_compare_text', $config->get( 'config_language_id' ) ); } else { echo 'Add to compare'; } ?></a></li>
-  						<li class="wishlist"> <a onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><?php if($theme_options->get( 'add_to_wishlist_text', $config->get( 'config_language_id' ) ) != '') { echo $theme_options->get( 'add_to_wishlist_text', $config->get( 'config_language_id' ) ); } else { echo 'Add to wishlist'; } ?></a></li>
-  					</ul>
+  				
   				</div>
   			</div>
   		</div>
