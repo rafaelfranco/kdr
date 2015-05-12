@@ -303,11 +303,6 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/new_ele
 			          <a href="<?php echo $sku; ?>"><input type="button" value="Comprar" id="button-cart" class="button" /></a>
 			          
 			        </div>
-			        
-			        <div class="links">
-			        	<a onclick="wishlist.add('<?php echo $product_id; ?>');"><?php echo $button_wishlist; ?></a>
-			        	<a onclick="compare.add('<?php echo $product_id; ?>');"><?php echo $button_compare; ?></a>
-			        </div>
 			         
 			        <?php if ($minimum > 1) { ?>
 			        <div class="minimum"><?php echo $text_minimum; ?></div>
