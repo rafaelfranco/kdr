@@ -300,8 +300,8 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/new_ele
 				          <a href="#" id="q_down"><i class="fa fa-minus"></i></a>
 			          </div>
 			          <input type="hidden" name="product_id" size="2" value="<?php echo $product_id; ?>" />
-			          <input type="button" value="Comprar" id="button-cart" rel="<?php echo $product_id; ?>" data-loading-text="<?php echo $text_loading; ?>" class="button" />
-			          <a href="<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>" class="button" id="button-more-details"><?php if($theme_options->get( 'more_details_text', $config->get( 'config_language_id' ) ) != '') { echo html_entity_decode($theme_options->get( 'more_details_text', $config->get( 'config_language_id' ) )); } else { echo 'More details'; } ?></a>
+			          <a href="<?php echo $sku; ?>"><input type="button" value="Comprar" id="button-cart" class="button" /></a>
+			          
 			        </div>
 			        
 			        <div class="links">
