@@ -32,7 +32,7 @@
         <?php } ?>
       </div>
       <div class="button-group">
-           <button type="button" style="background-color: #fb3850; color: #FFF; border: 0px;width:250px;" onclick="javascript:window.location('<?php echo $product['sku']; ?>');"> <span class="hidden-xs hidden-sm hidden-md"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;<?php echo $button_cart; ?></span></button>
+           <button type="button" style="background-color: #fb3850; color: #FFF; border: 0px;width:250px;" onclick="javascript:window.location='<?php echo $product['sku']; ?>';"> <span class="hidden-xs hidden-sm hidden-md"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;<?php echo $button_cart; ?></span></button>
    
         
       </div>
