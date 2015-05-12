@@ -293,8 +293,6 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/new_ele
 			      
 			      <div class="cart">
 			        <div class="add-to-cart clearfix">
-			          <p><?php echo $entry_qty; ?></p>
-			          
 			          <input type="hidden" name="product_id" size="2" value="<?php echo $product_id; ?>" />
 			          <a href="<?php echo $sku; ?>"><input type="button" value="Comprar" id="button-cart" class="button" /></a>
 			          
