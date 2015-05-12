@@ -294,11 +294,7 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/new_ele
 			      <div class="cart">
 			        <div class="add-to-cart clearfix">
 			          <p><?php echo $entry_qty; ?></p>
-			          <div class="quantity">
-				          <input type="text" name="quantity" id="quantity_wanted" size="2" value="<?php echo $minimum; ?>" />
-				          <a href="#" id="q_up"><i class="fa fa-plus"></i></a>
-				          <a href="#" id="q_down"><i class="fa fa-minus"></i></a>
-			          </div>
+			          
 			          <input type="hidden" name="product_id" size="2" value="<?php echo $product_id; ?>" />
 			          <a href="<?php echo $sku; ?>"><input type="button" value="Comprar" id="button-cart" class="button" /></a>
 			          
