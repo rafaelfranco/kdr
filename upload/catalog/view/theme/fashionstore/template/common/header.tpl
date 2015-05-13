@@ -554,20 +554,7 @@ $modules = new Modules($this->registry);
 							<div class="container">
 								<div class="row">
 									<!-- Top Bar Left -->
-									<div class="col-sm-4 hidden-xs">
-										<!-- Welcome text -->
-										
-									</div>
-                                    
-                                    	<!-- Header Right -->
-									<div class="col-sm-4" id="header-center">
-										
-									</div>
-		
-									<!-- Header Right -->
-									<div class="col-sm-4" id="header-right">
-										
-									</div>
+									
                                     
                                 
                                     
