@@ -593,12 +593,12 @@ $modules = new Modules($this->registry);
                                     
                                     
 									<!-- Top Bar Right -->
-									<div class="col-sm-4" id="top-bar-right">
+									<div class="col-sm-9" id="top-bar-right">
                                     
 										<!-- Search -->
 										<div class="search_form">
 											<div class="button-search"></div>
-											<input type="text" class="input-block-level search-query" name="search" placeholder="SEARCH..." id="search_query" value="" />
+											<input type="text" class="input-block-level search-query" name="search" placeholder="Buscar produtos" id="search_query" value="" />
 											
 											<?php if($theme_options->get( 'quick_search_autosuggest' ) != '0') { ?>
 												<div id="autocomplete-results" class="autocomplete-results"></div>
@@ -653,15 +653,7 @@ $modules = new Modules($this->registry);
                                     
                                     
                                     
-                                    <div class="col-sm-5">
-										<!-- Links -->
-										<ul class="header-links">
-											<li><a href="<?php echo $wishlist; ?>" id="wishlist-total"><?php echo $text_wishlist; ?></a></li>
-											<li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
-											<li><a href="<?php echo $shopping_cart; ?>"><?php echo $text_shopping_cart; ?></a></li>
-											<li><a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a></li>
-										</ul>
-									</div>
+                                  
                                     
                                     
                                     
