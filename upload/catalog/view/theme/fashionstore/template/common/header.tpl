@@ -556,19 +556,17 @@ $modules = new Modules($this->registry);
 									<!-- Top Bar Left -->
 									<div class="col-sm-4 hidden-xs">
 										<!-- Welcome text -->
-										<div class="welcome-text">
-											<?php if($theme_options->get( 'welcome_text', $config->get( 'config_language_id' ) ) != '') { echo html_entity_decode($theme_options->get( 'welcome_text', $config->get( 'config_language_id' ) )); } else { echo 'Call us: +48 500-312-312'; } ?>
-										</div>
+										
 									</div>
                                     
                                     	<!-- Header Right -->
 									<div class="col-sm-4" id="header-center">
-										<?php echo $cart; ?>
+										
 									</div>
 		
 									<!-- Header Right -->
 									<div class="col-sm-4" id="header-right">
-										    <?php echo $currency.$language; ?>
+										
 									</div>
                                     
                                 
